@@ -32,10 +32,7 @@ h1{
     align-items: center; 
     height: 800px;
     width: 600px;  
-    border: solid 2px white;
-    border-radius: 20px;
-    background-image: url(big2.jpg);
-    background-size: 100%;
+    
    
 }
 
@@ -73,6 +70,30 @@ h1{
     color: white;
     font-size: 20px;
 }
+
+@media ( max-width: 768px) {
+    #container{
+        height: 400px;
+        width: 300px;
+    }
+    .first{
+        height: 100px;
+        width: 100px;
+    }
+    .boximg{
+        height: 100px;
+        width: 100px;
+    }
+    .second{
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100px;
+        width: 100px;
+    }
+}
+    
+
+
 
 
 
